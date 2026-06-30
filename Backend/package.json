@@ -1,0 +1,27 @@
+{
+  "name": "codesync-backend",
+  "version": "1.0.0",
+  "description": "Real-time collaborative code editor backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["websocket", "realtime", "collaboration", "yjs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.3",
+    "validator": "^13.12.0",
+    "y-socket.io": "^1.1.3"
+  }
+}
